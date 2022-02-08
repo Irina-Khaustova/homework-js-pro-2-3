@@ -40,7 +40,7 @@ module.exports={
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
+      filename: 'style.css',
     }),
     new webpack.HotModuleReplacementPlugin(),
   ],
